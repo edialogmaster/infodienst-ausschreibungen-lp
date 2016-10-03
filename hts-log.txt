@@ -1,0 +1,11 @@
+HTTrack3.48-22+htsswf+htsjava launched on Mon, 03 Oct 2016 09:00:17 at http://test:ariadne@test.infodienst-ausschreibungen.at/landingPage/LP-ausschreibungen-allg_ref?lang=de +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "de, en, *" http://test:ariadne@test.infodienst-ausschreibungen.at/landingPage/LP-ausschreibungen-allg_ref?lang=de -O1 "C:\Users\Qin Lin\Google Drive\gfx\Infodienst\infodienst-ausschreibungen Landing page" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+
+HTTrack Website Copier/3.48-22 mirror complete in 2 minutes 11 seconds : 189 links scanned, 188 files written (4130901 bytes overall) [2707805 bytes received at 20670 bytes/sec], 4131053 bytes transferred using HTTP compression in 189 files, ratio 63%, 9.4 requests per connection
+(No errors, 0 warnings, 0 messages)

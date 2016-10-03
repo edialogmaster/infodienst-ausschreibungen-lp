@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+test.infodienst-ausschreibungen.at	TRUE	/	FALSE	1999999999	JSESSIONID	1062A13C64811918F23EC0250CF77E20.tomcat_test_ariadne1
+
