@@ -48,3 +48,183 @@ div#tabbox{padding-top:10px;overflow-x:auto}.tabsheet{display:none;position:rela
 .TED_FullText{width:100%}.TED_stidoc{font-weight:bold;text-align:center}.TED_nomark{margin-top:10px;left:0;display:inline-block;width:60px;text-align:right}.TED_timark{margin-top:10px;display:block;margin-left:70px;font-weight:bold}.TED_tigrseq{margin-top:10px;font-weight:bold;text-decoration:underline}.TED_txtmark{margin-left:70px}.TED_formatText{display:block}.TED_normalText{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0}.TED_intfor{font-weight:bold;text-decoration:underline}.TED_intread{font-weight:bold;text-decoration:underline}.TED_addr{display:block}.TED_noAddr{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0}
 .checkbox-tree-ul{padding-left:30px}.tree-anchor{width:15px;height:15px;position:absolute;left:15px}.tree-anchor-plus{background-image:url('Ts2NYinUP3v3m24IIibMPkO3y30elPi2UQmvvis7lLz.gif')}.tree-anchor-minus{background-image:url('sZ8PZ6unCPMKnzCWlwS0fPTwJwdpOheVn1aNBXlcCLP.gif')}.checkbox-tree-label{color:#999;position:relative;right:20px}
 
+
+/*e-dialog media queries*/
+
+@media only screen and (min-width: 320px) and (max-width : 1000px) {
+
+	/*SLIDER*/
+	#landingpage #teaser #slideshow {
+			background: url('../images/slider-bg.jpg');
+		}
+
+	#landingpage #slideshow img {
+		position: relative;
+		right: -10%;
+	}
+
+	#landingpage #slideshow .slogan {
+		width: 60%;
+	}
+
+	/*REGISTRATION-BOX*/
+	#landingpage #reg-box {
+		width: 40%;
+		font-size: 16px;
+		line-height: 150%;
+	}
+
+	#landingpage #reg-box form {
+		padding: 20px;
+	}
+
+	#landingpage .control-label, #landingpage #reg-box input, #landingpage #reg-box select, #landingpage #reg-box .l2112select {
+		display: block;
+		width: 100%;
+	}
+
+	#landingpage .control-label {
+		padding-left: 0;
+		font-size: 16px;
+	}
+
+	#landingpage .input-middle {
+		width: 100% !important;
+		height: 30px;
+		padding: 0;
+	}
+
+	#landingpage select#param_salutation {
+		top: -30px;
+	}
+
+	#landingpage #reg-box .l2112select {
+		height: 30px;
+		line-height: 200%;
+		padding: 0 0 0 5px;
+	}
+
+	#landingpage select#param_salutation.error {
+		top: 0px;
+	}
+
+	#landingpage input#register.btn-red {
+		display: inline-block;
+		width: 80%;
+	}
+
+	/*LAST COLUMN OF LANDING PAGE*/
+	#landingpage div.column:last-of-type {
+		margin-top: 20px !important;
+		width: 100%;
+	}
+
+	#landingpage #quote-box img, #landingpage table img {
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width : 768px) {
+	
+	#landingpage h3 {
+		font-size: 20px;
+		margin-top: 1em;
+	}
+
+	/*SLIDER*/
+	#landingpage #teaser {
+		overflow: visible;
+		height: auto;
+		background: #fff;
+	}
+
+	#landingpage #slideshow {
+		margin-bottom: 1em;
+	}
+
+	#landingpage #slideshow .slogan {
+		top: 140px;
+		width: 75%;
+	}
+
+	#landingpage #slideshow .title  {
+		font-size: 12px;
+		line-height: 120%;
+		top: 210px;
+		width: auto;
+		right: 20px;
+	}
+
+	/*REGISTRATION*/
+	#landingpage #reg-box {
+		position: static;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	#landingpage #reg-box .input-middle {
+		padding-left: 5px !important;
+	}
+
+	#landingpage input#register.btn-red {
+		height: 50px;
+	}
+
+	#landingpage #reg-box input, #landingpage #reg-box select, #landingpage #reg-box .l2112select, #landingpage #param_salutation {
+		margin-bottom: 10px;
+	}
+
+	/*ALL COLUMNS*/
+	#landingpage .column {
+		width: 100%;
+	}
+
+	#landingpage table {
+		width: 100%;
+	}
+
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width : 480px) {
+
+	/*SLIDER*/
+	#landingpage #slideshow img {
+		left: -10%;
+	}
+
+	#landingpage #slideshow .slogan {
+		font-size: 16px;
+		top: 120px;
+		width: 60%;
+		line-height: 120%;
+	}
+
+	/*REGISTRATION-BOX*/
+	#landingpage #reg-box {
+		width: 95%;
+	}
+
+	#landingpage #reg-box form {
+		padding: 0;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width : 380px) {
+
+	/*SLIDER*/
+	#landingpage #slideshow img {
+		left: -40%;
+	}
+
+	#landingpage #slideshow .slogan {
+		font-size: 14px;
+		top: 100px;
+		width: 50%;
+
+	}
+}
