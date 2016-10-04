@@ -79,7 +79,7 @@ div#tabbox{padding-top:10px;overflow-x:auto}.tabsheet{display:none;position:rela
 	}
 
 	#landingpage #reg-box form {
-		padding: 20px;
+		padding: 0 20px;
 	}
 
 	#landingpage .control-label, #landingpage #reg-box input, #landingpage #reg-box select, #landingpage #reg-box .l2112select {
@@ -136,6 +136,10 @@ div#tabbox{padding-top:10px;overflow-x:auto}.tabsheet{display:none;position:rela
 	#landingpage h3 {
 		font-size: 20px;
 		margin-top: 1em;
+	}
+
+	#landingpage #reg-form h3 {
+		margin: 0;
 	}
 
 	/*SLIDER*/
