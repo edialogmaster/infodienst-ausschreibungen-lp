@@ -67,6 +67,10 @@ div#tabbox{padding-top:10px;overflow-x:auto}.tabsheet{display:none;position:rela
 		width: 60%;
 	}
 
+	#landingpage #slideshow {
+		overflow: hidden;
+	}
+
 	/*REGISTRATION-BOX*/
 	#landingpage #reg-box {
 		width: 40%;
