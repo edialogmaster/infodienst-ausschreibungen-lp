@@ -98,10 +98,6 @@ div#tabbox{padding-top:10px;overflow-x:auto}.tabsheet{display:none;position:rela
 		padding: 0;
 	}
 
-	#landingpage select#param_salutation {
-		top: -30px;
-	}
-
 	#landingpage #reg-box .l2112select {
 		height: 30px;
 		line-height: 200%;
@@ -119,7 +115,9 @@ div#tabbox{padding-top:10px;overflow-x:auto}.tabsheet{display:none;position:rela
 
 	#landingpage #reg-box fieldset div.inputWrapper:first-of-type {
 		height: 40px;
+		margin-top: 30px;
 	}
+
 
 	/*LAST COLUMN OF LANDING PAGE*/
 	#landingpage div.column:last-of-type {
@@ -132,6 +130,7 @@ div#tabbox{padding-top:10px;overflow-x:auto}.tabsheet{display:none;position:rela
 		margin: 0 auto;
 		max-width: 100%;
 	}
+
 
 }
 
